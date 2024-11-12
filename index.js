@@ -49,4 +49,16 @@ function switchCase(numero) {
             return "Otro número";
     }
 }
-// switch .. case .. default:
+
+let str = '';
+
+function forBucle {
+    for (let i = 0; i < 9; i++) {
+        str = str + i;
+      }
+      
+      console.log(str);
+      // Expected output: "012345678"
+}
+
+// while, do.. while
