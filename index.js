@@ -61,4 +61,48 @@ function forBucle {
       // Expected output: "012345678"
 }
 
+function whileLooo (value) {
+    let num=0
+    while (value){
+
+    }
+}
+
 // while, do.. while
+
+
+function tryObject () {
+
+    const user = {
+        userName:"",
+        age:"",
+        course:"",
+    }
+ 
+    user.userName='Pepe'
+    user.age=23
+    user.course="Full stack"
+    
+    const userList =[]
+    userList.push(user)
+
+    // user.name='Juan'
+    // user.age=22
+    // user.course="Full stack"
+    // Salida:
+    //  0-Juan 22 full stack
+    //  1-Juan 22 full stack
+    
+    userList.push({userName:'Juan',age:22,course:"Full stack"})
+    console.log(userList)
+
+   
+
+    const matrix = [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9],
+    ]
+
+    console.log (matrix[1][1]) // 5
+} 
